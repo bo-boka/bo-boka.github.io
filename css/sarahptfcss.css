@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 29, 2016, 9:35:13 PM
+    Author     : apprentice
+*/
+
+body {
+    background-color: #EEE8AA;
+    color: #800040;
+}
+
+/*colors: 
+#EEE8AA gale gold
+#9fe2bf seafoamgreen
+#800000 maroon
+#888845 weird vom green
+#BC8F8F rosybrown*/
+
+#name {
+    font-family: 'Calligraffitti', serif;
+    font-size: 22px;
+    padding: 17px;
+    
+}
+
+.centered {
+    text-align: center;
+}
+
+.homeimg {
+    width:150px; 
+    height:150px; 
+    box-shadow: 7px 7px 3px #888845;
+}
+
+.portimg {
+    width:460px; 
+    height:200px; 
+    box-shadow: 10px 10px 5px #888845;
+}
+
+.portdiv {
+    border:1px solid black;
+    padding:10px; 
+}
+
+#intro {
+    width:400px; 
+    padding:20px; 
+    border:1px solid black;
+    margin: 20px auto;
+}
+
+.footspan {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav {
+    padding-left:23px;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    border-top: 1px solid black;
+    /*border-bottom: 1px solid black;*/
+    /*background-color: white;*/
+}
+
+.weak {
+    font-weight: 200;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+/*a:visited {
+    color: gray;
+}*/
+
+a:hover {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+p {
+    padding:0px 50px 0px 50px;
+}
+
+.center-pills { 
+    display: inline-block; 
+}
+
+.pad {
+    padding: 17px;
+}
