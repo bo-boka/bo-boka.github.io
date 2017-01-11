@@ -1,7 +1,7 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <%@ taglib prefix="s" uri="http://www.springframework.org/tags"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,8 +11,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Bootstrap core CSS -->
-        <link href="${pageContext.request.contextPath}/css/bootstrap.min.css" rel="stylesheet">
-        <link href="${pageContext.request.contextPath}/css/sarahptfcss.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/sarahptfcss.css" rel="stylesheet" type="text/css">
 
         <!-- SWC Icon -->
         <link rel="shortcut icon" href="${pageContext.request.contextPath}/img/icon.png">
@@ -23,7 +23,35 @@
     </head>
     <body>
         <div class="container">
-            <%@include file="headerFrag.jsp" %>
+            <header>
+    <div class="centered" id="name">
+        <div style="float: left;">
+            <img src="img/profresh.png" alt="project thumbnail to come" class="homeimg img-circle" class="img-responsive">
+        </div>
+        <div>
+            <h1>Sarah Boka</h1>
+            <h4>Full Stack Software Developer</h4>
+        </div>
+        
+        
+    </div>
+    <div class="text-center">
+        <nav>
+            <ul class="nav nav-pills center-pills">
+                <li><a href="${pageContext.request.contextPath}/home"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li><a href="${pageContext.request.contextPath}/about">About</a></li>
+                <li><a href="${pageContext.request.contextPath}/resume">Resume</a></li>
+            </ul>
+        </nav>
+    </div>
+    <noscript>
+    <div class="container">
+        <div class="alert alert-warning alert-dismissable" align="center">
+            Alert: This site is best viewed with JavaScript enabled. Please enable JavaScript in your browser settings.
+        </div>
+    </div>
+    </noscript>
+</header>
             <div class="container">
 
                 <div class="row">
@@ -75,7 +103,11 @@
                 </div>
             </div>
             <br>
-            <%@include file="footerFrag.jsp" %>
+            <footer class="centered">
+				<br>
+				<a href="http://gmail.com">Boka.sarah@gmail.com</a><span class="footspan">|</span> <a href= "https://github.com/sarahboka">Sarah's GitHub </a> <span class="footspan">|</span><a href="https://www.linkedin.com/in/sarah-boka-71a14383">Sarah's LinkedIn</a>
+				<br><br>
+			</footer>
         </div>
 
         <br><br>
