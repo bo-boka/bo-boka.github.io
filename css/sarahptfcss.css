@@ -1,107 +1,49 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Nov 29, 2016, 9:35:13 PM
-    Author     : apprentice
-*/
-
-
-/*fade back and forth*/
-
-/*body {
-  background: #248880;
-  background: -webkit-linear-gradient(to right bottom, #FAEBD7, #7a7a52, #FAEBD7);
-  background:    -moz-linear-gradient(to right bottom, #FAEBD7, #7a7a52, #FAEBD7);
-  background:         linear-gradient(to right bottom, #FAEBD7, #7a7a52, #FAEBD7);
-  background-attachment: fixed;
-}*/
-
-/*body {
-  background: #248880;
-  background: -webkit-linear-gradient(to right bottom, #FAEBD7, #998066, #FAEBD7);
-  background:    -moz-linear-gradient(to right bottom, #FAEBD7, #998066, #FAEBD7);
-  background:         linear-gradient(to right bottom, #FAEBD7, #998066, #FAEBD7);
-  background-attachment: fixed;
-}*/
-
-/*body {
-  background: #248880;
-  background: -webkit-linear-gradient(to right bottom, #FAEBD7 10%, #527a66, #FAEBD7);
-  background:    -moz-linear-gradient(to right bottom, #FAEBD7 10%, #527a66, #FAEBD7);
-  background:         linear-gradient(to right bottom, #FAEBD7 10%, #527a66, #FAEBD7);
-  
-}*/
-
-/*  favs========*/
-
-
-/*body {
-  background: #248880;
-  background: -webkit-linear-gradient(to right bottom, #FAEBD7 10%, #666666);
-  background:    -moz-linear-gradient(to right bottom, #FAEBD7 10%, #666666);
-  background:         linear-gradient(to right bottom, #FAEBD7 10%, #666666);
-  background-attachment: fixed;
-}*/
 
 
 body {
-  background: #248880;
-  background: -webkit-linear-gradient(to right bottom, #FAEBD7 3%, #666666, #FAEBD7);
-  background:    -moz-linear-gradient(to right bottom, #FAEBD7 3%, #666666, #FAEBD7);
-  background:         linear-gradient(to right bottom, #FAEBD7 3%, #666666, #FAEBD7);
+  background-color: #FAEBD7;
 }
 
-/*body {
-  background: #248880;
-  background: -webkit-linear-gradient(to right bottom, #FAEBD7, #666666, #FAEBD7);
-  background:    -moz-linear-gradient(to right bottom, #FAEBD7, #666666, #FAEBD7);
-  background:         linear-gradient(to right bottom, #FAEBD7, #666666, #FAEBD7);
-  background-attachment: fixed;
-}*/
-
-
-/*colors: 
-#EEE8AA gale gold
-#9fe2bf seafoamgreen
-#800000 maroon
-#888845 weird vom green
-#800040 magenta
-#BC8F8F rosybrown*/
-
-/*body { can't use this one but want it for later
-  background: #248880;
-  background: -webkit-linear-gradient(to right bottom, #FAEBD7, #4d4d4d, #24240f);
-  background:    -moz-linear-gradient(to right bottom, #FAEBD7, #4d4d4d, #24240f);
-  background:         linear-gradient(to right bottom, #FAEBD7, #4d4d4d, #24240f);
-}*/
+.name {
+    font-family: serif;
+    padding-top: 130px ;
+	padding-left: 170px;
+	
+}
 
 .font-head {
     font-family: 'Calligraffitti', serif;
-    padding-bottom: 17px;
-	font-weight: 900;
+	
+}
+
+.headContainer {
+	width: 80%;
+	margin-top: 120px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .sectionContainer {
-	padding-left: 60px;
-	padding-right: 60px;
+	padding-left: 10px;
+	padding-right: 50px;
 }
 
+
 .homeimg {
-    width:120px; 
-    height:120px; 
+    width:150px; 
+    height:220px; 
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
 
 .portdiv {
-    border:1px solid black;
-	background-color: #ffffff;
+    border:5px solid black;	
 	margin-bottom: 70px;
 	border-radius: 25px;
 	padding: 10px;
-	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);	
+	background: rgba(22,22,22, 0.5);
+    color: #ffffff;
+    
 }
 
 .footspan {
@@ -109,9 +51,29 @@ body {
     padding-right: 30px;
 }
 
-nav {
-    border-bottom: 1px solid black;
+#head {
+	background-color: #200b0b;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	min-height: 50px;
+	padding: 10px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+ul > li {
+	padding-left: 20px;
+	padding-right: 20px;
+} 
+
+header {
+    border-bottom: 20px solid black;
 	padding-top: 20px;
+	height: 510px;
+	background: #248880;
+	background: -webkit-linear-gradient(to right bottom, #FAEBD7 3%, #666666, #FAEBD7);
+	background:    -moz-linear-gradient(to right bottom, #FAEBD7 3%, #666666, #FAEBD7);
+	background:         linear-gradient(to right bottom, #FAEBD7 3%, #666666, #FAEBD7);
 }
 
 #quoteDiv {
@@ -170,11 +132,11 @@ span.text-content {
   font-size: 130%;
   cursor: pointer;
   display: table;
-  height: 310px;
+  height: 335px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 720px;
+  width: 100%;
   opacity: 0;
   -webkit-transition: opacity 700ms;
   -moz-transition: opacity 700ms;

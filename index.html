@@ -12,11 +12,23 @@
         <link href="css/sarahptfcss.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 		
-        <!-- SWC Icon -->
+        <!-- Tab Icon -->
         <link rel="shortcut icon" href="img/sarah-icon.png">
 
         <!--Font-->
         <link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
+		
+		<!--google analytics-->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-91524404-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 		
 		<!--[if lt IE 9]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
 		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -51,47 +63,73 @@
 		 });
 		 </script>
     </head>
-    <body>
-        <div class="container">
-            <header>				
-				<nav>
-					<div class="sectionContainer clearfix">
-						<div style="float: left;">
-							<img src="img/profresh.png" alt="project thumbnail to come" class="homeimg img-circle img-responsive">
-						</div>
-						<div>
-							<div class="font-head" style="font-family: 'Calligraffitti', serif;">
-								<h1  style="margin-left: auto; margin-right: auto; width: 170px;"><strong>Sarah Boka</strong></h1>
-								<h4  style="margin-left: auto; margin-right: auto; width: 140px;">Software Developer</h4>
-							</div> 
-							<ul style="margin-left: auto; margin-right: auto; width: 150px;">
-								<li class="dropdown">
-									<a class="dropdown-toggle fa-lg" data-toggle="dropdown" href="#">Resume<span class="caret"></span></a>
-									<ul class="dropdown-menu">
-										<li><a href="Resume_SarahBoka_SoftwareEngineer.pdf" target="_blank">View Resume</a></li>
-										<li><a href="Resume_SarahBoka_SoftwareEngineer.docx" download>Download Resume</a></li>									
-									</ul>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</nav>					
-				<noscript>
-					<div class="container">
-						<div class="alert alert-warning alert-dismissable" align="center">
-							Alert: This site is best viewed with JavaScript enabled. Please enable JavaScript in your browser settings.
-						</div>
-					</div>
-				</noscript>
-			</header>           
+    <body> 					
+		<nav id="head" class="navbar-default">
+		  <div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#" style="font-family: 'Orbitron', sans-serif; font-size: 20px;">S&ensp; a&ensp; r&ensp; a&ensp; h &ensp; B&ensp; o&ensp; k&ensp; a</a>
+			</div>
 
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  
+			  <ul class="navbar-nav navbar-right">
+				
+				<li><a href="mailto:boka.sarah@gmail.com" title="Send me an email" target="_blank"> <span class="fa fa-envelope fa-2x"></span></a></li>
+				<li><a href="https://www.linkedin.com/in/sarah-boka" title="Find me on LinkedIn" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a></li>
+				<li><a href="https://github.com/sarahboka" title="Check out my GitHub" target="_blank"><span class="fa fa-github fa-2x"></span></a></li>
+				<li><a href="https://trello.com/sarahboka" title="Find me on Trello" target="_blank"><span class="fa fa-trello fa-2x"></span></a></li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-size: 25px; text-decoration: none; background-color: #200b0b;">Resume <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="Resume_SarahBoka_SoftwareEngineer.pdf" target="_blank">View Resume</a></li>
+					<li><a href="Resume_SarahBoka_SoftwareEngineer.docx" download>Download Resume</a></li>					
+					<li role="separator" class="divider"></li>
+					<li><a href="https://github.com/sarahboka" target="_blank">GitHub</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<!--end of navbar........-->
+		<header>	
+			<div class="container headContainer">
+				<div style="float: left;">
+					<img src="img/profpic2.png" alt="project thumbnail to come" class="homeimg img-circle img-responsive">
+				</div>
+				<div>
+					<div class="name img-responsive">
+						<div style="font-family: 'Orbitron', sans-serif; font-size: 45px;"><strong>Sarah Boka</strong></div>
+						<div style="font-family: 'Orbitron', serif; padding-left: 140px; font-size: 20px;"><span>S&ensp;o&ensp;f&ensp;t&ensp;w&ensp;a&ensp;r&ensp;e&ensp;</span> <span>D&ensp;e&ensp;v&ensp;e&ensp;l&ensp;o&ensp;p&ensp;e&ensp;r</span></div>
+					</div> 					
+				</div>
+			</div>
+			
+		</header>
+		<div class="container">
+			<noscript>
+				<div class="container">
+					<div class="alert alert-warning alert-dismissable" align="center">
+						Alert: This site is best viewed with JavaScript enabled. Please enable JavaScript in your browser settings.
+					</div>
+				</div>
+			</noscript>
+				   
 			<div class="row">				
 				<div class="col-lg-9 col-md-9 col-sm-10 col-xs-12 sectionContainer"><br><br><br>
-					<h3 class="text-center font-head">Projects</h3>					
+					<h3 class="text-center font-head">Projects</h3><br><br>			
 					<!--blog-->
 					<div class="pad portdiv">
 						<div class="pad">
-							<h4><a href="https://github.com/sarahboka/blog-site">Blog Builder Website  <span class="fa fa-github"></span></a></h4><br>
+							<h4><a href="https://github.com/sarahboka/blog-site" style="color: #ffffff;">Blog Builder Website  <span class="fa fa-github"></span></a></h4><br>
 							<div id="carousel-blog" class="carousel slide round-corner" data-ride="carousel">	
 								  <!-- Indicators -->
 								  <ol class="carousel-indicators">
@@ -173,7 +211,7 @@
 					<!--vend-->
 					<div class="pad portdiv">
 						<div class="pad">
-							<h4><a href="https://github.com/sarahboka/vending-machine-webapp">Vending Machine Web App  <span class="fa fa-github"></span></a></h4><br>
+							<h4><a href="https://github.com/sarahboka/vending-machine-webapp" style="color: #ffffff;">Vending Machine Web App  <span class="fa fa-github"></span></a></h4><br>
 							<div id="carousel-vend" class="carousel slide" data-ride="carousel">
 								  <!-- Indicators -->
 								  <ol class="carousel-indicators">
@@ -235,7 +273,7 @@
 					<!--floor-->
 					<div class="pad portdiv">
 						<div class="pad">
-							<h4><a href="https://github.com/sarahboka/flooring-business-calculator">Flooring Machine Console App  <span class="fa fa-github"></span></a></h4><br>
+							<h4><a href="https://github.com/sarahboka/flooring-business-calculator" style="color: #ffffff;">Flooring Machine Console App  <span class="fa fa-github"></span></a></h4><br>
 							<div id="carousel-floor" class="carousel slide" data-ride="carousel">
 								  <!-- Indicators -->
 								  <ol class="carousel-indicators">
@@ -249,37 +287,37 @@
 								  <!-- Wrapper for slides -->
 								  <div class="carousel-inner" role="listbox">
 									<div class="item active hover-text">
-									  <img src="img/floor/floorMainMenu.png" alt="flooring machine project thumbnail"  class="img-responsive">
+									  <img src="img/floor/floorMainMenu.png" alt="flooring machine project thumbnail"  style="margin: auto;" class="img-responsive">
 									  <div>
 										<span class="text-content"><span>Above the flooring main menu, you are notified that you are in production mode rather than test mode. Test mode disables the 'save' option (5).</span></span>
 									  </div>
 									</div>
 									<div class="item hover-text">
-									  <img src="img/floor/floorDisplay.png" alt="floor site project thumbnail-display" >
+									  <img src="img/floor/floorDisplay.png" alt="floor site project thumbnail-display" style="margin: auto;">
 									  <div>
 										<span class="text-content"><span>All orders from that date are listed. Entering an invalid date will re-prompt you for input until a valid date is entered.</span></span>
 									  </div>
 									</div>
 									<div class="item hover-text">
-									  <img src="img/floor/floorAddVal.png" alt="floor site project thumbnail-add" >
+									  <img src="img/floor/floorAddVal.png" alt="floor site project thumbnail-add"  style="margin: auto;">
 									  <div>
 										<span class="text-content"><span>Option 2 adds an order to the database. Entering invalid info will re-prompt.</span></span>
 									  </div>
 									</div>
 									<div class="item hover-text">
-									  <img src="img/floor/floorConfirm.png" alt="floor site project thumbnail-confirm" >
+									  <img src="img/floor/floorConfirm.png" alt="floor site project thumbnail-confirm"  style="margin: auto;">
 									  <div>
 										<span class="text-content"><span>After adding an order, your order summary is given and you are prompted to confirm your order. There is a state tax file and labor cost file in the database that is used to calculate the total.</span></span>
 									  </div>
 									</div>
 									<div class="item hover-text">
-									  <img src="img/floor/floorEdit.png" alt="floor site project thumbnail-edit" >
+									  <img src="img/floor/floorEdit.png" alt="floor site project thumbnail-edit"  style="margin: auto;">
 									  <div>
 										<span class="text-content"><span>The edit funtion displays the original value of each property in parenthesis. If a field is left blank, it's value remains the same.</span></span>
 									  </div>
 									</div>
 									<div class="item hover-text">
-									  <img src="img/floor/floorRemove.png" alt="floor site project thumbnail-remove" >
+									  <img src="img/floor/floorRemove.png" alt="floor site project thumbnail-remove"  style="margin: auto;">
 									  <div>
 										<span class="text-content"><span>Remove an order by order number and confirm delete. Changes will not be saved automatically. You must select option 5 (save) before exiting. </span></span>
 									  </div>
@@ -304,7 +342,7 @@
 					<!--dvd-->
 					<div class="pad portdiv">
 						<div class="pad"> 
-							<h4><a href="https://github.com/sarahboka/dvd-collection-webapp">DVD Collection Web App  <span class="fa fa-github"></span></a></h4><br>
+							<h4><a href="https://github.com/sarahboka/dvd-collection-webapp" style="color: #ffffff;">DVD Collection Web App  <span class="fa fa-github"></span></a></h4><br>
 							<div id="carousel-dvd" class="carousel slide" data-ride="carousel">	
 								  <!-- Indicators -->
 								  <ol class="carousel-indicators">
@@ -368,37 +406,10 @@
 
 				
 				<div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" align="center"><br><br>
-					<h3 class="font-head"><br>Contact Info</h3>
-					<div style="width: 160px;" class="pad">						
-						<div><a style="text-align: left;" href="mailto:boka.sarah@gmail.com" title="Send me an email" class="btn btn-block btn-social btn-envelope">
-							<span class="fa-stack fa-lg">
-							  <i class="fa fa-square-o fa-stack-2x"></i>
-							  <i class="fa fa-envelope fa-stack-1x"></i>
-							</span> Email</a>
-						</div>
-						<div><a style="text-align: left;" href="https://www.linkedin.com/in/sarah-boka-71a14383" title="Find me on LinkedIn" class="btn btn-block btn-social btn-linkedin">
-							<span class="fa-stack fa-lg">
-							  <i class="fa fa-square-o fa-stack-2x"></i>
-							  <i class="fa fa-linkedin fa-stack-1x"></i>
-							</span> LinkedIn</a>
-						</div>
-						<div><a style="text-align: left;" href="https://github.com/sarahboka" title="Check out my GitHub" class="btn btn-block btn-social btn-github">
-							<span class="fa-stack fa-lg">
-							  <i class="fa fa-square-o fa-stack-2x"></i>
-							  <i class="fa fa-github fa-stack-1x"></i>
-							</span> GitHub</a>
-						</div>
-						<div><a style="text-align: left;" href="https://trello.com/sarahboka" title="Find me on Trello" class="btn btn-block btn-social btn-trello">
-							<span class="fa-stack fa-lg">
-							  <i class="fa fa-square-o fa-stack-2x"></i>
-							  <i class="fa fa-trello fa-stack-1x"></i>
-							</span> Trello</a>
-						</div>
-						<br>
-					</div>
+					
 					<!-- tag canvas (don't use css to change size)-->
 					<div id="myCanvasContainer"><br>
-					 <h3 class="font-head">Skills</h3> 	
+					 <h3 class="font-head">Skills Ball</h3><br><br><br><br>
 					 <canvas width="300" height="300" id="myCanvas">
 					  <p>Please change browser to view tag canvas of skills.</p>
 					 </canvas>
@@ -421,13 +432,43 @@
 					 </ul>
 					</div> 
 					<div id="quoteDiv">
-						<h3 class="font-head">Testimonials</h3><br>
+						<h3 class="font-head">Testimonials</h3><br><br>
 						<q style="letter-spacing: 2px;"><em>Sarah has demonstrated great drive and dedication - spending the necessary time to get a deeper understanding of complex topics. 
 						She has excellent attention to detail, and a flair for research and finding previously unknown and creative solutions.
 						With her desire to know how and why things tick, and her enthusiasm to tackle problems outside of her comfort zone - the growth of both is inevitable.</em></q>
 						<br><br>
 						<p style="text-align: left;"><strong><a href="www.softwareguild.com"> Austyn Hill<br> Lead Java Instructor<br> The Software Guild</a></strong></p>
 					</div>
+					
+					<h3 class="font-head"><br><br><br>Contact Info</h3><br>
+					<div style="width: 160px;" class="pad">						
+						<div><a style="text-align: left;" href="mailto:boka.sarah@gmail.com" title="Send me an email" class="btn btn-block btn-social btn-envelope">
+							<span class="fa-stack fa-lg">
+							  <i class="fa fa-square-o fa-stack-2x"></i>
+							  <i class="fa fa-envelope fa-stack-1x"></i>
+							</span> Email</a>
+						</div>
+						<div><a style="text-align: left;" href="https://www.linkedin.com/in/sarah-boka" title="Find me on LinkedIn" class="btn btn-block btn-social btn-linkedin">
+							<span class="fa-stack fa-lg">
+							  <i class="fa fa-square-o fa-stack-2x"></i>
+							  <i class="fa fa-linkedin fa-stack-1x"></i>
+							</span> LinkedIn</a>
+						</div>
+						<div><a style="text-align: left;" href="https://github.com/sarahboka" title="Check out my GitHub" class="btn btn-block btn-social btn-github">
+							<span class="fa-stack fa-lg">
+							  <i class="fa fa-square-o fa-stack-2x"></i>
+							  <i class="fa fa-github fa-stack-1x"></i>
+							</span> GitHub</a>
+						</div>
+						<div><a style="text-align: left;" href="https://trello.com/sarahboka" title="Find me on Trello" class="btn btn-block btn-social btn-trello">
+							<span class="fa-stack fa-lg">
+							  <i class="fa fa-square-o fa-stack-2x"></i>
+							  <i class="fa fa-trello fa-stack-1x"></i>
+							</span> Trello</a>
+						</div>
+						<br>
+					</div>
+					
 				</div>
 			</div>
 			
