@@ -6,28 +6,15 @@ body {
 
 .name {
     font-family: serif;
-    padding-top: 130px ;
-	padding-left: 170px;
-	
+    padding-top: 13rem;
+	padding-left: 17rem;	
 }
 
-.font-head {
-    font-family: 'Calligraffitti', serif;
-	
-}
-
-.headContainer {
-	width: 80%;
-	margin-top: 120px;
+.headContainer {	
+	padding: 11% 5%;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-.sectionContainer {
-	padding-left: 10px;
-	padding-right: 50px;
-}
-
 
 .homeimg {
     width:150px; 
@@ -35,24 +22,6 @@ body {
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
 
-.portdiv {
-    border:5px solid black;	
-	margin-bottom: 70px;
-	border-radius: 25px;
-	padding: 10px;
-	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
-    color: #ffffff;
-	background: rgba(22,22,22, 0.6);
-	background: -webkit-linear-gradient(to left bottom, #e0e0d1 1%, #333333 99%);
-	background:    -moz-linear-gradient(to left bottom, #e0e0d1 1%, #333333 99%);
-	background:         linear-gradient(to left bottom, #e0e0d1 1%, #333333 99%);
-    
-}
-
-.footspan {
-    padding-left: 30px;
-    padding-right: 30px;
-}
 
 #head {
 	background-color: #200b0b;
@@ -70,23 +39,80 @@ ul > li {
 } 
 
 header {
-    border-bottom: 20px solid black;
-	padding-top: 20px;
-	height: 510px;
+    border-bottom: 25px solid black;	
+	height: 530px;
 	background: rgba(22,22,22, 0.6);
 	background: -webkit-linear-gradient(to right bottom, #FAEBD7 3%, #666666, #FAEBD7);
 	background:    -moz-linear-gradient(to right bottom, #FAEBD7 3%, #666666, #FAEBD7);
 	background:         linear-gradient(to right bottom, #FAEBD7 3%, #666666, #FAEBD7);
 }
 
-#quoteDiv {
-	margin-top: 100px;
+.separator {
+	border-top: 0.3rem solid black;
+	margin-top: 3rem;
 	
+}
+
+#about {
+	font-size: 12px;
+    line-height: 2.2rem;
+    padding: 14% 26%;
+	letter-spacing: 6px;
+    text-transform: uppercase;
+    font-family: verdana;
+	
+}
+
+#proj-div {
+	background-color: #200b0b;
+	padding: 1%;
+	margin: 8rem 0rem;
+	text-align: center;
+	
+}
+
+#proj-font {
+	padding-top: 5%;
+	font-size: 20px;
+	letter-spacing: 6px;
+    text-transform: uppercase;
+    font-family: verdana;
+	
+}
+
+
+img {
+	max-width: 100%;
+
+}
+
+.project {
+    border:2px solid black;	
+	margin: 5% 23%;	
+	border-radius: 10px;
+	
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    color: #ffffff;
+	background: rgba(22,22,22, 0.6);
+	background: -webkit-linear-gradient(to left bottom, #e0e0d1 1%, #333333 99%);
+	background:    -moz-linear-gradient(to left bottom, #e0e0d1 1%, #333333 99%);
+	background:         linear-gradient(to left bottom, #e0e0d1 1%, #333333 99%);
+    
+}
+
+#quoteDiv {
+	margin: 8% 30%;
+	
+}
+
+.footspan {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 footer {
     border-top: 1px solid black;
-	margin-bottom: 20px;
+	padding: 20px;
 }
 
 ul {
@@ -114,55 +140,5 @@ a:active {
     text-decoration: none;
 }
 
-p {
-    padding:0px 50px 0px 50px;
-}
 
-.center-pills { 
-    display: inline-block; 
-}
 
-.pad {
-    padding: 17px;
-}
-
-/*text hover over project pictures*/
-
-span.text-content {
-  background: rgba(0,0,0,0.7);
-  color: white;
-  font-weight: bold;
-  font-size: 130%;
-  cursor: pointer;
-  display: table;
-  height: 335px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  opacity: 0;
-  -webkit-transition: opacity 700ms;
-  -moz-transition: opacity 700ms;
-  -o-transition: opacity 700ms;
-  transition: opacity 700ms;
-}
-
-div.hover-text:hover span.text-content {
-  opacity: 1;
-}
-
-span.text-content span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  padding-left: 200px;
-	padding-right: 200px;
-}
-
-.carousel-indicators {
-  bottom: 5px;
-}
-
-.round-corner {
-	border-radius: 25px;
-}

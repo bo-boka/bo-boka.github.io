@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Sarah Boka - Software Engineer</title>
+        <title>Sarah Boka | Software Engineer</title>
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,12 +11,13 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link href="css/sarahptfcss.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="lightbox2-master/dist/css/lightbox.min.css">
 		
         <!-- Tab Icon -->
         <link rel="shortcut icon" href="img/sarah-icon.png">
 
         <!--Font-->
-        <link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
+        
 		<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Orbitron" rel="stylesheet">
 		
 		<!--google analytics-->
@@ -34,6 +35,7 @@
 		<!--[if lt IE 9]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
 		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		 <script src="jquery-tagcanvas/jquery.tagcanvas.min.js" type="text/javascript"></script>
+		 
 		
 		<script>
 			$('.carousel').on('mouseenter',function(){ $( this ).carousel('next');})
@@ -61,6 +63,7 @@
 			 $('#myCanvasContainer').hide();
 		   }
 		   // your other jQuery stuff here...
+		   
 		 });
 		 </script>
     </head>
@@ -79,10 +82,8 @@
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			  
-			  <ul class="navbar-nav navbar-right">
-				
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">			  
+			  <ul class="navbar-nav navbar-right">				
 				<li><a href="mailto:boka.sarah@gmail.com" title="Send me an email" target="_blank"> <span class="fa fa-envelope fa-2x"></span></a></li>
 				<li><a href="https://www.linkedin.com/in/sarah-boka" title="Find me on LinkedIn" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a></li>
 				<li><a href="https://github.com/sarahboka" title="Check out my GitHub" target="_blank"><span class="fa fa-github fa-2x"></span></a></li>
@@ -106,385 +107,150 @@
 				<div style="float: left;">
 					<img src="img/profpic2.png" alt="project thumbnail to come" class="homeimg img-circle img-responsive">
 				</div>
-				<div>
+				<div style="width: 78%;">
 					<div class="name img-responsive">
-						<div style="font-family: 'Orbitron', sans-serif; font-size: 45px;"><strong>Sarah Boka</strong></div>
-						<div style="font-family: 'Orbitron', serif; padding-left: 140px; font-size: 20px;  letter-spacing: 15px;">Software Developer</div>
+						<div style="font-family: 'Orbitron', sans-serif; font-size: 50px;"><strong>Sarah Boka</strong></div>
+						<div align="right" style="font-family: 'Orbitron', serif; font-size: 20px;  letter-spacing: 15px;">Software Developer</div>
 					</div> 					
 				</div>
-			</div>
-			
+			</div>			
 		</header>
+		<noscript>
+			<div class="container">
+				<div class="alert alert-warning alert-dismissable" align="center">Alert: This site is best viewed with JavaScript enabled. Please enable JavaScript in your browser settings.</div>
+			</div>
+		</noscript>
+		<div class="separator">
+			<center><a href="#about" class="smooth-scroll" style="margin: auto;"><i class="fa fa-angle-down fa-3x" aria-hidden="true"></i></a></center>
+		</div>		
 		<div class="container">
-			<noscript>
-				<div class="container">
-					<div class="alert alert-warning alert-dismissable" align="center">
-						Alert: This site is best viewed with JavaScript enabled. Please enable JavaScript in your browser settings.
-					</div>
-				</div>
-			</noscript>
-				   
-			<div class="row">				
-				<div class="col-lg-9 col-md-9 col-sm-10 col-xs-12 sectionContainer"><br><br><br>
-					<h3 class="text-center font-head">Projects</h3><br><br>			
-					<!--blog-->
-					<div class="pad portdiv">
-						<div class="pad">
-							<h4><a href="https://github.com/sarahboka/blog-site" style="color: #ffffff;">Blog Builder Website  <span class="fa fa-github"></span></a></h4><br>
-							<div id="carousel-blog" class="carousel slide round-corner" data-ride="carousel">	
-								  <!-- Indicators -->
-								  <ol class="carousel-indicators">
-									<li data-target="#carousel-blog" data-slide-to="0" class="active"></li>
-									<li data-target="#carousel-blog" data-slide-to="1"></li>
-									<li data-target="#carousel-blog" data-slide-to="2"></li>
-									<li data-target="#carousel-blog" data-slide-to="3"></li>
-									<li data-target="#carousel-blog" data-slide-to="4"></li>
-									<li data-target="#carousel-blog" data-slide-to="5"></li>
-									<li data-target="#carousel-blog" data-slide-to="6"></li>
-									<li data-target="#carousel-blog" data-slide-to="7"></li>
-								  </ol>
-								  <!-- Wrapper for slides -->
-								  <div class="carousel-inner round-corner" role="listbox">
-									<div class="item active hover-text">
-									  <img src="img/blogPageHome.png" alt="blog site project thumbnail">
-									  <div>
-										<span class="text-content"><span class="hover-text-center">Fixed background while blogs scroll. Shows 5 blogs on Home Page and uses 'show more/less' button to view more blogs.</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/blog/blogHomeDropdownNavBar.png" alt="blog site project thumbnail-home dropdown" >
-									  <div>
-										<span class="text-content"><span class="hover-text-center">The nav bar includes a dynamically created dropdown link. (Created on admin page, accessable only after logging in.)</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/blog/blogCausesSingle.png" alt="blog site project thumbnail-causes" >
-									  <div>
-										<span class="text-content"><span class="hover-text-center">Causes dropdown link goes to individual pages so that each page's url can be shared. Each blog name is a clickable link to its own page as well.</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/blog/blogSearchDD.png" alt="blog site project thumbnail-search" >
-									  <div>
-										<span class="text-content"><span>You can search blogs by title, author, category, or tags. You are notified if no matches were found or if you entered incorrect data.</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/blog/blogLogin.png" alt="blog site project thumbnail-login" >
-									  <div>
-										<span class="text-content"><span>Login is required to view and access the 'Admin' pill in the nav bar.</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/blog/blogAdminDisplayLists.png" alt="blog site project thumbnail-admin" >
-									  <div>
-										<span class="text-content"><span>Admin has two tabs for Blogs and Pages. ('Publish' button disappears if you're logged in as worker.)</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/blog/blogWorkerTinyMCE.png" alt="blog site project thumbnail-tinymce" >
-									  <div>
-										<span class="text-content"><span>Worker can only add and edit drafts to be approved (published) by boss. Text to HTML technology is TinyMCE.</span></span>
-									  </div>
-									</div>	
-									<div class="item hover-text">
-									  <img src="img/blog/blogEditModal.png" alt="blog site project thumbnail-edit" >
-									  <div>
-										<span class="text-content"><span>Edit blog or page via modal. Hibernate is used for validation.</span></span>
-									  </div>
-									</div>
-								  </div>
-								  <!-- Controls -->
-								  <a class="left carousel-control" href="#carousel-blog" role="button" data-slide="prev">
-									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-									<span class="sr-only">Previous</span>
-								  </a>
-								  <a class="right carousel-control" href="#carousel-blog" role="button" data-slide="next">
-									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-									<span class="sr-only">Next</span>
-								  </a>
-							</div>
-						</div><br>
-						<div>                  
-							<p>A collaborative, dynamic blog website that gives the admin the ability to create blogs and static pages. Admin functionality varies based on login credentials. Made using Java, JSP, Spring Core, Spring MVC, Spring Security, MySQL, JDBC, Ajax, JSON, jQuery, Javascript, JSTL, HTML, Bootstrap & Git.</p>
-						</div>
-					</div>
-					<!--vend-->
-					<div class="pad portdiv">
-						<div class="pad">
-							<h4><a href="https://github.com/sarahboka/vending-machine-webapp" style="color: #ffffff;">Vending Machine Web App  <span class="fa fa-github"></span></a></h4><br>
-							<div id="carousel-vend" class="carousel slide" data-ride="carousel">
-								  <!-- Indicators -->
-								  <ol class="carousel-indicators">
-									<li data-target="#carousel-vend" data-slide-to="0" class="active"></li>
-									<li data-target="#carousel-vend" data-slide-to="1"></li>
-									<li data-target="#carousel-vend" data-slide-to="2"></li>
-									<li data-target="#carousel-vend" data-slide-to="3"></li>
-									<li data-target="#carousel-vend" data-slide-to="4"></li>
-								  </ol>
-								  <!-- Wrapper for slides -->
-								  <div class="carousel-inner" role="listbox">
-									<div class="item active hover-text">
-									  <img src="img/vend/vendHome.png" alt="vending machine project thumbnail"  class="img-responsive">
-									  <div>
-										<span class="text-content"><span>Vending Machine Home Page. Enter money amount, click the button of desired item, recieve change. Nav bar includes 'Stats' link and settings icon to the far right (accessable only after logging in).</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/vend/vendStats.png" alt="vend site project thumbnail-stats" >
-									  <div>
-										<span class="text-content"><span>Statistics page shows the inventory amount of each item from the database in the form of a bar chart. Made using Google visualization.</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/vend/vendLogin.png" alt="vend site project thumbnail-login" >
-									  <div>
-										<span class="text-content"><span>After clicking on the settings icon, you are brought to the login page. Must be logged in for the admin link to appear and to make administrative changes.</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/vend/vendAdminValidation.png" alt="vend site project thumbnail-admin" >
-									  <div>
-										<span class="text-content"><span>Admin page allows you to create, read, update, or delete items. It notifies you if you've entered incorrect data.</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/vend/vendEditModal.png" alt="vend site project thumbnail-admin" >
-									  <div>
-										<span class="text-content"><span>Items are edited in pop up modal form.</span></span>
-									  </div>
-									</div>										
-									
-								  </div>
-								  <!-- Controls -->
-								  <a class="left carousel-control" href="#carousel-vend" role="button" data-slide="prev">
-									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-									<span class="sr-only">Previous</span>
-								  </a>
-								  <a class="right carousel-control" href="#carousel-vend" role="button" data-slide="next">
-									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-									<span class="sr-only">Next</span>
-								  </a>
-							</div>
-						</div><br>
-						<div>            
-							<p>Digital vending machine that allows users to insert money, choose items, and returns change. Includes an admin page for CRUDing items that appears only after logging in. Uses Java, JSP, Spring Core, MVC, and Security, MySQL, JDBC, TDD, RESTful, Javascript, Ajax, Json.</p>
-						</div>
-					</div>
-					<!--floor-->
-					<div class="pad portdiv">
-						<div class="pad">
-							<h4><a href="https://github.com/sarahboka/flooring-business-calculator" style="color: #ffffff;">Flooring Machine Console App  <span class="fa fa-github"></span></a></h4><br>
-							<div id="carousel-floor" class="carousel slide" data-ride="carousel">
-								  <!-- Indicators -->
-								  <ol class="carousel-indicators">
-									<li data-target="#carousel-floor" data-slide-to="0" class="active"></li>
-									<li data-target="#carousel-floor" data-slide-to="1"></li>
-									<li data-target="#carousel-floor" data-slide-to="2"></li>
-									<li data-target="#carousel-floor" data-slide-to="3"></li>
-									<li data-target="#carousel-floor" data-slide-to="4"></li>
-									<li data-target="#carousel-floor" data-slide-to="5"></li>
-								  </ol>
-								  <!-- Wrapper for slides -->
-								  <div class="carousel-inner" role="listbox">
-									<div class="item active hover-text">
-									  <img src="img/floor/floorMainMenu.png" alt="flooring machine project thumbnail"  style="margin: auto;" class="img-responsive">
-									  <div>
-										<span class="text-content"><span>Above the flooring main menu, you are notified that you are in production mode rather than test mode. Test mode disables the 'save' option (5).</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/floor/floorDisplay.png" alt="floor site project thumbnail-display" style="margin: auto;">
-									  <div>
-										<span class="text-content"><span>All orders from that date are listed. Entering an invalid date will re-prompt you for input until a valid date is entered.</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/floor/floorAddVal.png" alt="floor site project thumbnail-add"  style="margin: auto;">
-									  <div>
-										<span class="text-content"><span>Option 2 adds an order to the database. Entering invalid info will re-prompt.</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/floor/floorConfirm.png" alt="floor site project thumbnail-confirm"  style="margin: auto;">
-									  <div>
-										<span class="text-content"><span>After adding an order, your order summary is given and you are prompted to confirm your order. There is a state tax file and labor cost file in the database that is used to calculate the total.</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/floor/floorEdit.png" alt="floor site project thumbnail-edit"  style="margin: auto;">
-									  <div>
-										<span class="text-content"><span>The edit funtion displays the original value of each property in parenthesis. If a field is left blank, it's value remains the same.</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/floor/floorRemove.png" alt="floor site project thumbnail-remove"  style="margin: auto;">
-									  <div>
-										<span class="text-content"><span>Remove an order by order number and confirm delete. Changes will not be saved automatically. You must select option 5 (save) before exiting. </span></span>
-									  </div>
-									</div>
-									
-								  </div>
-								  <!-- Controls -->
-								  <a class="left carousel-control" href="#carousel-floor" role="button" data-slide="prev">
-									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-									<span class="sr-only">Previous</span>
-								  </a>
-								  <a class="right carousel-control" href="#carousel-floor" role="button" data-slide="next">
-									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-									<span class="sr-only">Next</span>
-								  </a>
-							</div>
-						</div><br>
-						<div>            
-							<p>Java CRUD console app to create and manage flooring orders for a flooring business. The orders are written to files by date. The app was made using Spring mvc, dependency injection, validation, and file I/O.</p>
-						</div>
-					</div>
-					<!--dvd-->
-					<div class="pad portdiv">
-						<div class="pad"> 
-							<h4><a href="https://github.com/sarahboka/dvd-collection-webapp" style="color: #ffffff;">DVD Collection Web App  <span class="fa fa-github"></span></a></h4><br>
-							<div id="carousel-dvd" class="carousel slide" data-ride="carousel">	
-								  <!-- Indicators -->
-								  <ol class="carousel-indicators">
-									<li data-target="#carousel-dvd" data-slide-to="0" class="active"></li>
-									<li data-target="#carousel-dvd" data-slide-to="1"></li>
-									<li data-target="#carousel-dvd" data-slide-to="2"></li>
-									<li data-target="#carousel-dvd" data-slide-to="3"></li>
-									<li data-target="#carousel-dvd" data-slide-to="4"></li>
-								  </ol>
-								  <!-- Wrapper for slides -->
-								  <div class="carousel-inner" role="listbox">
-									<div class="item active hover-text">
-									  <img src="img/dvd/dvdHomeAdd.png" alt="dvd project thumbnail" >
-									  <div>
-										<span class="text-content"><span>DVD Collection Home Page grabs all DVDs from MySQL Database and lists them for user. User can view, add, edit, or delete DVDs.</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/dvd/dvdViewl.png" alt="dvd site project thumbnail-view" >
-									  <div>
-										<span class="text-content"><span>DVD adds to database and updates display table list after pressing 'Add' button. Titles are linked to modal that displays movie info.</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/dvd/dvdHome.png" alt="dvd site project thumbnail-edit-link" >
-									  <div>
-										<span class="text-content"><span>You can also edit a DVD in the database by pressing the 'Edit' link from the display table.</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/dvd/dvdEditModal.png" alt="dvd site project thumbnail-edit" >
-									  <div>
-										<span class="text-content"><span>Edit modal pops up. Database is updated.</span></span>
-									  </div>
-									</div>
-									<div class="item hover-text">
-									  <img src="img/dvd/dvdSearch.png" alt="dvd site project thumbnail-search" >
-									  <div>
-										<span class="text-content"><span>Search tab displays all DVDs in database with empty search form. Search results display any DVDs containing the characters or numbers entered.</span></span>
-									  </div>
-									</div>										
-									
-								  </div>
-								  <!-- Controls -->
-								  <a class="left carousel-control" href="#carousel-dvd" role="button" data-slide="prev">
-									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-									<span class="sr-only">Previous</span>
-								  </a>
-								  <a class="right carousel-control" href="#carousel-dvd" role="button" data-slide="next">
-									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-									<span class="sr-only">Next</span>
-								  </a>
-							</div>
-						</div><br>
-						<div>        
-							<p>DVD collection library that allows user to create, display, search, update, and delete movies. Made with Java, JSP, Spring MVC, Spring Core, Ajax, JSON, jQuery, Javascript, MySQL.</p>
-						</div>
-					</div>	
-						
-				</div>
-
-				
-				<div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" align="center"><br><br>
+			<div id="about">
+				<p>Hey, I'm a full stack software developer originally from Las Vegas. I've lived in many places from San Francisco to Thailand to Australia. I currently reside on the Delaware River near Philly. </p>
+				<br>
+				<p>I love learning about innovative technology and have a passion for creating and problem solving. Have a look through some of my projects by clicking on the images. Learn a bit more about me and then consider hiring me!
+				</p>
+			</div>
+			<!-- tag canvas (don't use css to change size)-->			
+			<div id="myCanvasContainer" align="center" style="margin-bottom: 3rem;">					 
+			 <canvas width="300" height="300" id="myCanvas">
+			  <p>Please change browser to view tag canvas of skills.</p>
+			 </canvas>
+			</div>
+			<div id="tags">
+			 <ul>
+			  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/git-logo.png" alt="git logo" class="logoimg" height="100" width="100"></a></li>
+			  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/apache-tomcat.png" alt="apache logo" class="logoimg" height="80" width="120"></a></li>
+			  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/java-logo-vector.png" alt="java logo" class="logoimg" height="120" width="100"></a></li>
+			  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/ajax-logo.png" alt="ajax logo" class="logoimg" height="70" width="100"></a></li>
+			  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/maven-logo.png" alt="maven logo" class="logoimg" height="40" width="110"></a></li>
+			  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/spring-logo.png" alt="spring logo" class="logoimg" height="60" width="100"></a></li>
+			  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/netbeans-logo.png" alt="netbeans logo" class="logoimg" height="90" width="90"></a></li>
+			  <!--<li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/html-logo.png" alt="html5 logo" class="logoimg" height="90" width="90"></a></li>				  -->
+			  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/javascript-logo.png" alt="javascript logo" class="logoimg" height="100" width="100"></a></li>
+			  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/rest-logo.png" alt="rest logo" class="logoimg"  height="100" width="100"></a></li>					  					  
+			  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/json-logo.png" alt="json logo" class="logoimg" height="200" width="200"></a></li>
+			  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/python-logo.png" alt="python logo" class="logoimg" height="100" width="180"></a></li>
+			  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/bootstrap-logo.png" alt="bootstrap logo" class="logoimg"  height="90" width="100"></a></li>					  					  
+			  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/logo-mysql-170x115.png" alt="mysql logo" class="logoimg" height="80" width="100"></a></li>			  
+			  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/postgresql-logo.png" alt="postgreSQL logo" class="logoimg"  height="90" width="100"></a></li>					  					  
+			 </ul>
+			</div>
+		</div>
+		<div id="proj-div">
+			<div id="proj-font">Projects</div>
 					
-					<!-- tag canvas (don't use css to change size)-->
-					<div id="myCanvasContainer"><br>
-					 <h3 class="font-head">Skills Ball</h3><br><br><br><br>
-					 <canvas width="300" height="300" id="myCanvas">
-					  <p>Please change browser to view tag canvas of skills.</p>
-					 </canvas>
-					</div>
-					<div id="tags">
-					 <ul>
-					  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/git-logo.png" alt="git logo" class="logoimg" height="100" width="100"></a></li>
-					  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/apache-tomcat.png" alt="apache logo" class="logoimg" height="80" width="120"></a></li>
-					  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/java-logo-vector.png" alt="java logo" class="logoimg" height="120" width="100"></a></li>
-					  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/ajax-logo.png" alt="ajax logo" class="logoimg" height="70" width="100"></a></li>
-					  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/maven-logo.png" alt="maven logo" class="logoimg" height="40" width="110"></a></li>
-					  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/spring-logo.png" alt="spring logo" class="logoimg" height="60" width="100"></a></li>
-					  <!--<li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/netbeans-logo.png" alt="netbeans logo" class="logoimg" height="90" width="90"></a></li>-->
-					  <!--<li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/html-logo.png" alt="html5 logo" class="logoimg" height="90" width="90"></a></li>-->					  
-					  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/javascript-logo.png" alt="javascript logo" class="logoimg" height="100" width="100"></a></li>
-					  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/rest-logo.png" alt="rest logo" class="logoimg"  height="100" width="100"></a></li>					  					  
-					  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/json-logo.png" alt="json logo" class="logoimg" height="200" width="200"></a></li>
-					  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/python-logo.png" alt="python logo" class="logoimg" height="100" width="180"></a></li>
-					  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/logo-mysql-170x115.png" alt="mysql logo" class="logoimg" height="80" width="100"></a></li>
-					  <li><a href="https://github.com/sarahboka" target="_blank"><img src="img/canvas_logos/bootstrap-logo.png" alt="bootstrap logo" class="logoimg"  height="90" width="100"></a></li>					  
-					  
-					  
-					  
-					  
-					 </ul>
-					</div> 
-					<div id="quoteDiv">
-						<h3 class="font-head">Testimonials</h3><br><br>
-						<q style="letter-spacing: 2px;"><em>Sarah has demonstrated great drive and dedication - spending the necessary time to get a deeper understanding of complex topics. 
-						She has excellent attention to detail, and a flair for research and finding previously unknown and creative solutions.
-						With her desire to know how and why things tick, and her enthusiasm to tackle problems outside of her comfort zone - the growth of both is inevitable.</em></q>
-						<br><br>
-						<p style="text-align: left;"><strong><a href="www.softwareguild.com"> Austyn Hill<br> Lead Java Instructor<br> The Software Guild</a></strong></p>
-					</div>
-					
-					<h3 class="font-head"><br><br><br>Contact Info</h3><br>
-					<div style="width: 160px;" class="pad">						
-						<div><a style="text-align: left;" href="mailto:boka.sarah@gmail.com" title="Send me an email" class="btn btn-block btn-social btn-envelope">
-							<span class="fa-stack fa-lg">
-							  <i class="fa fa-square-o fa-stack-2x"></i>
-							  <i class="fa fa-envelope fa-stack-1x"></i>
-							</span> Email</a>
-						</div>
-						<div><a style="text-align: left;" href="https://www.linkedin.com/in/sarah-boka" title="Find me on LinkedIn" class="btn btn-block btn-social btn-linkedin">
-							<span class="fa-stack fa-lg">
-							  <i class="fa fa-square-o fa-stack-2x"></i>
-							  <i class="fa fa-linkedin fa-stack-1x"></i>
-							</span> LinkedIn</a>
-						</div>
-						<div><a style="text-align: left;" href="https://github.com/sarahboka" title="Check out my GitHub" class="btn btn-block btn-social btn-github">
-							<span class="fa-stack fa-lg">
-							  <i class="fa fa-square-o fa-stack-2x"></i>
-							  <i class="fa fa-github fa-stack-1x"></i>
-							</span> GitHub</a>
-						</div>
-						<div><a style="text-align: left;" href="https://trello.com/sarahboka" title="Find me on Trello" class="btn btn-block btn-social btn-trello">
-							<span class="fa-stack fa-lg">
-							  <i class="fa fa-square-o fa-stack-2x"></i>
-							  <i class="fa fa-trello fa-stack-1x"></i>
-							</span> Trello</a>
-						</div>
-						<br>
-					</div>
-					
+			<!--debate-->
+			<div class="project">
+				<div>
+					<h3 style=" padding: 1%;"><a href="https://github.com/sarahboka/debate-web-app" style="color: #ffffff;">Deft Debate  <span class="fa fa-github"></span></a></h3>							
+					<a class="img-responsive" href="img/deb/debHomeDD.png" data-lightbox="debate" data-title="Debates appear by status selected at dropdown. Category and user links in page sides."><img src="img/deb/debHome.png" alt="deft debate thumbnail" style="padding: 2%"></a>
+					<a class="img-responsive" href="img/deb/debUser.png" data-lightbox="debate" data-title="After logging in, username appears as dropdown menu."></a>
+					<a class="img-responsive" href="img/deb/debSearchDate.png" data-lightbox="debate" data-title="Nav bar with search is on every page. Can search by resolution keywords, categories, username, or date."></a>
+					<a class="img-responsive" href="img/deb/debRegister.png" data-lightbox="debate" data-title="Register with an encrypted password using BCrypt. All fields are validated. Email is validated with regex."></a>
+					<a class="img-responsive" href="img/deb/debModDash.png" data-lightbox="debate" data-title="Dashboard has 'Add Debate' form and a list of user's personal debates. Moderator dashboard also includes unpublished debates, 'Add Moderator' form below(not pictured) and flagged user list below (not pictured). All fields are validated."></a>
+					<a class="img-responsive" href="img/deb/debEditAccount.png" data-lightbox="debate" data-title="Users can edit their accounts."></a>
+					<a class="img-responsive" href="img/deb/debDeb.png" data-lightbox="debate" data-title="Debate page status message changes depending on status."></a>
+					<a class="img-responsive" href="img/deb/debChallenge.png" data-lightbox="debate" data-title="Challenge box only appears for logged in users and on non-challenged debates. It disappears when debate has been challenged."></a>
+					<a class="img-responsive" href="img/deb/debRebuttal.png" data-lightbox="debate" data-title="Rebuttal box only appears for logged in user who is responsible for next response. Users get 3 arguments each."></a>
+					<a class="img-responsive" href="img/deb/debEditDeb.png" data-lightbox="debate" data-title="Edit/Delete debate buttons only appear for moderators."></a>
+					<a class="img-responsive" href="img/deb/debVote.png" data-lightbox="debate" data-title="Vote buttons only appear when debate is in voting mode."></a>							
+				</div>			
+				<div style="padding: 1%;">
+					<p>Java web app that allows users to register, debate, and vote! Users can search debates by category, resolution, status, date, or username. Users have a dashboard and profile. Moderators can edit, delete, publish, or unpublish debates as well as create other moderators. Functionality is locked using Spring security, Hibernate, and BCrypt.</p>
+					<hr>
+					<p>Built using Test-Driven Development, REST, Spring, MVC, JDBC, MySQL, Ajax, JSTL, Javascript, jQuery, HTML/CSS and Bootstrap.</p>
 				</div>
 			</div>
-			
-            <footer class="text-center">
-				<br>
-				<a href="http://gmail.com">Boka.sarah@gmail.com</a><span class="footspan">|</span> <a href= "https://github.com/sarahboka">Sarah's GitHub </a> <span class="footspan">|</span><a href="https://www.linkedin.com/in/sarah-boka-71a14383">Sarah's LinkedIn</a>
-				<br><br>
-			</footer>
-        </div>        
+			<!--blog-->
+			<div class="project">
+				<div>
+					<h3 style="padding: 1%;"><a href="https://github.com/sarahboka/blog-site" style="color: #ffffff;">Blog Builder Website  <span class="fa fa-github"></span></a></h3>
+					<a class="img-responsive" href="img/blogPageHome.png" data-lightbox="blog" data-title="Shows 5 blogs on Home Page and uses 'show more/less' button to view more blogs."><img src="img/blogPageHome.png" alt="blog site project thumbnail" style="padding: 2%"></a>
+					<a class="img-responsive" href="img/blog/blogHomeDropdownNavBar.png" data-lightbox="blog" data-title="The nav bar includes a dynamically created dropdown link. (Created on admin page, accessable only after logging in.)"></a>
+					<a class="img-responsive" href="img/blog/blogCausesSingle.png" data-lightbox="blog" data-title="Causes dropdown link goes to individual pages so that each page's url can be shared. Each blog name is a clickable link to its own page as well."></a>
+					<a class="img-responsive" href="img/blog/blogSearchDD.png" data-lightbox="blog" data-title="You can search blogs by title, author, category, or tags. You are notified if no matches were found or if you entered incorrect data."></a>
+					<a class="img-responsive" href="img/blog/blogLogin.png" data-lightbox="blog" data-title="Login is required to view and access the 'Admin' pill in the nav bar."></a>
+					<a class="img-responsive" href="img/blog/blogAdminDisplayLists.png" data-lightbox="blog" data-title="Admin has two tabs for Blogs and Pages. ('Publish' button disappears if you're logged in as worker.)"></a>
+					<a class="img-responsive" href="img/blog/blogWorkerTinyMCE.png" data-lightbox="blog" data-title="Worker can only add and edit drafts to be approved (published) by boss. Text to HTML technology is TinyMCE."></a>
+					<a class="img-responsive" href="img/blog/blogEditModal.png" data-lightbox="blog" data-title="Edit blog or page via modal. Hibernate is used for validation."></a>							
+				</div>
+				<div style="padding: 1%;">
+					<p>A collaborative, dynamic blog website that gives the admin the ability to create blogs and static pages. Admin functionality varies based on login credentials.</p>
+					<hr>
+					<p>Made using Java, JSP, Spring Core, Spring MVC, Spring Security, MySQL, JDBC, Ajax, JSON, jQuery, Javascript, JSTL, HTML, Bootstrap & Git.</p>
+				</div>
+			</div>
+			<!--vend-->
+			<div class="project">
+				<div>
+					<h3 style="padding: 1%;"><a href="https://github.com/sarahboka/vending-machine-webapp" style="color: #ffffff;">Vending Machine Web App  <span class="fa fa-github"></span></a></h3>
+					<a class="img-responsive" href="img/vend/vendHome.png" data-lightbox="vend" data-title="Vending Machine Home Page. Enter money amount, click the button of desired item, recieve change. Nav bar includes 'Stats' link and settings icon to the far right (accessable only after logging in)."><img src="img/vend/vendHome.png" alt="vending machine project thumbnail" style="padding: 2%"></a>
+					<a class="img-responsive" href="img/vend/vendStats.png" data-lightbox="vend" data-title="Statistics page shows the inventory amount of each item from the database in the form of a bar chart. Made using Google visualization."></a>
+					<a class="img-responsive" href="img/vend/vendLogin.png" data-lightbox="vend" data-title="After clicking on the settings icon, you are brought to the login page. Must be logged in for the admin link to appear and to make administrative changes."></a>
+					<a class="img-responsive" href="img/vend/vendAdminValidation.png" data-lightbox="vend" data-title="Admin page allows you to create, read, update, or delete items. It notifies you if you've entered incorrect data."></a>
+					<a class="img-responsive" href="img/vend/vendEditModal.png" data-lightbox="vend" data-title="Items are edited in pop up modal form."></a>
+				</div>
+				<div style="padding: 1%;">
+					<p>Digital vending machine that allows users to insert money, choose items, and returns change. Includes an admin page for CRUDing items that appears only after logging in.</p>
+					<hr>
+					<p>Built with Java, JSP, Spring Core, MVC, and Security, MySQL, JDBC, TDD, RESTful, Javascript, Ajax, Json.</p>
+				</div>
+			</div>
+			<!--floor-->
+			<div class="project">
+				<div>
+					<h3 style="padding: 1%;"><a href="https://github.com/sarahboka/flooring-business-calculator" style="color: #ffffff;">Flooring Machine Console App  <span class="fa fa-github"></span></a></h3>
+					<a class="img-responsive" href="img/floor/floorMainMenu.png" data-lightbox="floor" data-title="Above the flooring main menu, you are notified that you are in production mode rather than test mode. Test mode disables the 'save' option (5)."><img src="img/floor/floorMainMenu.png" alt="flooring project thumbnail" style="padding: 2%"></a>
+					<a class="img-responsive" href="img/floor/floorDisplay.png" data-lightbox="floor" data-title="All orders from that date are listed. Entering an invalid date will re-prompt you for input until a valid date is entered."></a>
+					<a class="img-responsive" href="img/floor/floorAddVal.png" data-lightbox="floor" data-title="Option 2 adds an order to the database. Entering invalid info will re-prompt."></a>
+					<a class="img-responsive" href="img/floor/floorConfirm.png" data-lightbox="floor" data-title="After adding an order, your order summary is given and you are prompted to confirm your order. There is a state tax file and labor cost file in the database that is used to calculate the total."></a>
+					<a class="img-responsive" href="img/floor/floorEdit.png" data-lightbox="floor" data-title="The edit funtion displays the original value of each property in parenthesis. If a field is left blank, it's value remains the same."></a>
+					<a class="img-responsive" href="img/floor/floorRemove.png" data-lightbox="floor" data-title="Remove an order by order number and confirm delete. Changes will not be saved automatically. You must select option 5 (save) before exiting. "></a>
+					
+				</div>
+				<div style="padding: 1%;">
+					<p>Java CRUD console app to create and manage flooring orders for a flooring business. The orders are written to files by date.</p>
+					<hr>
+					<p>The app was made using Java, Spring MVC, dependency injection, validation, and file I/O.</p>
+				</div>
+			</div>
+		</div>
+		<div id="quoteDiv">
+			<h3 class="font-head">Testimonials</h3>
+			<q style="letter-spacing: 2px;"><em>Sarah has demonstrated great drive and dedication - spending the necessary time to get a deeper understanding of complex topics. 
+			She has excellent attention to detail, and a flair for research and finding previously unknown and creative solutions.
+			With her desire to know how and why things tick, and her enthusiasm to tackle problems outside of her comfort zone - the growth of both is inevitable.
+			</em></q>			
+			<p style="text-align: right;"><strong><a href="www.softwareguild.com"> Austyn Hill<br>Lead Java Instructor<br>The Software Guild</a></strong></p>
+		</div>
+		
+		<footer class="text-center">		
+			<a href="http://gmail.com">Boka.sarah@gmail.com</a><span class="footspan">|</span> <a href= "https://github.com/sarahboka">Sarah's GitHub </a> <span class="footspan">|</span><a href="https://www.linkedin.com/in/sarah-boka-71a14383">Sarah's LinkedIn</a>			
+		</footer>
+         
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="lightbox2-master/dist/js/lightbox.min.js"></script>
     </body>
 </html>
 
