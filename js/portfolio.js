@@ -24,6 +24,9 @@ $(document).ready(function() {
    
  });
  
+ 
+ //smooth scrolling
+ 
  $(document).ready(function(){
 
   $(".smooth-scroll").on('click', function(event) {
