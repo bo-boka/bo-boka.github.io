@@ -1,6 +1,5 @@
 
 //tag canvas
-
 window.onload = function() {
 	try {
 	  TagCanvas.Start('myCanvas','tags');
@@ -8,8 +7,8 @@ window.onload = function() {
 	  // something went wrong, hide the canvas container
 	  document.getElementById('myCanvasContainer').style.display = 'none';
 	}
-  };
-  
+};
+
 $(document).ready(function() {
    if( ! $('#myCanvas').tagcanvas({
 	 textColour : '#ffffff',
@@ -21,12 +20,12 @@ $(document).ready(function() {
 	 $('#myCanvasContainer').hide();
    }
    // your other jQuery stuff here...
-   
+
  });
- 
- 
+
+
  //smooth scrolling
- 
+
  $(document).ready(function(){
 
   $(".smooth-scroll").on('click', function(event) {
@@ -37,11 +36,9 @@ $(document).ready(function() {
 
       var hash = this.hash;
 
-
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 800, function(){
-
 
         window.location.hash = hash;
       });
