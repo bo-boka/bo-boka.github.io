@@ -54,7 +54,7 @@ body {
 
 header {
     border-bottom: 25px solid black;
-	height: 530px;
+	height: 510px;
 	background: rgba(22,22,22, 0.6);
 	background: -webkit-linear-gradient(to right bottom, #FAEBD7 3%, #666666, #FAEBD7);
 	background:    -moz-linear-gradient(to right bottom, #FAEBD7 3%, #666666, #FAEBD7);
