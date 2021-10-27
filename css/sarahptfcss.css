@@ -1,47 +1,10 @@
-
+html {
+    height: 100%
+}
 
 body {
   background-color: #FAEBD7;
-}
-
-.navbar-brand{
-  font-family: 'Orbitron', sans-serif;
-  font-size: 20px;
-  letter-spacing: 15px;
-}
-
-.name {
-  font-family: serif;
-  padding-top: 13rem;
-	padding-left: 17rem;
-}
-
-#fullname{
-   font-family: 'Orbitron', sans-serif;
-   font-size: 50px;
-}
-
-#title{
-   text-align: right;
-   font-family: 'Orbitron', serif;
-   font-size: 20px;
-   letter-spacing: 15px;
-}
-
-.headContainer {
-	padding: 11% 5%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.homeimg {
-    width:150px;
-    height:225px;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
-}
-
-#floatimg {
-  float: left;
+  height: 100%
 }
 
 #head {
@@ -52,13 +15,53 @@ body {
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
+.navbar-brand{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  letter-spacing: 15px;
+}
+
 header {
+    height: 100%;
+}
+
+.headContainer {
+	padding: 11% 5%;
+	margin-left: auto;
+	margin-right: auto;
     border-bottom: 25px solid black;
-	height: 510px;
+	height: 90%;
 	background: rgba(22,22,22, 0.6);
 	background: -webkit-linear-gradient(to right bottom, #FAEBD7 3%, #666666, #FAEBD7);
 	background:    -moz-linear-gradient(to right bottom, #FAEBD7 3%, #666666, #FAEBD7);
 	background:         linear-gradient(to right bottom, #FAEBD7 3%, #666666, #FAEBD7);
+}
+
+.homeimg {
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+#floatimg {
+  float: left;
+}
+
+.name {
+    font-family: serif;
+    padding-top: 23rem;
+    padding-left: 35rem;
+
+}
+
+#fullname{
+   font-family: 'Orbitron', sans-serif;
+   font-size: 70px;
+}
+
+#title{
+   text-align: right;
+   font-family: 'Orbitron', serif;
+   font-size: 30px;
+   letter-spacing: 15px;
 }
 
 .separator {
@@ -173,24 +176,41 @@ a:active {
 }
 
 @media screen and  (max-width:959px){
-  /*body{
-    background-color: green;
-  }*/
-  .project {
-    margin: 5% 15%;
-  }
-  #about {
-    padding: 15%, 12%;
-  }
-  #quoteDiv {
-  	margin: 10% 25%;
-  }
+    body{
+        background-color: green;
+    }
+    .headContainer {
+	    padding: 17% 3%;
+    }
+
+    .name {
+        padding-top: 25rem;
+        padding-left: 32rem;
+
+    }
+    #fullname{
+       font-size: 35px;
+    }
+    #title{
+       text-align: left;
+       font-size: 15px;
+       letter-spacing: 12px;
+    }
+    .project {
+        margin: 5% 15%;
+    }
+    #about {
+        padding: 15%, 12%;
+    }
+    #quoteDiv {
+        margin: 10% 25%;
+    }
 }
 
 @media screen and  (max-width:640px){
-  /*body{
+  body{
     background-color: blue;
-  }*/
+  }
   .project {
     margin: 3%;
   }
@@ -203,27 +223,25 @@ a:active {
 }
 
 @media screen and  (max-width:470px){
-  /*body{
+  body{
     background-color: red;
-  }*/
+  }
   .navbar-brand{
     font-size: 14px;
     letter-spacing: 6px;
     font-weight: bold;
   }
   .homeimg{
-    /*width:120px;
-    height:180px;*/
+    width:150px;
+    height:225px;
     margin: 10% auto;
   }
-  header{
-    height: 50%;
-  }
   #fullname{
-    font-size: 0px;
+    font-size: 50px;
   }
   #title{
-    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 9.5px;
     float: none;
   }
   .name {
