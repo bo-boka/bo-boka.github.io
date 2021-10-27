@@ -79,7 +79,7 @@ header {
     font-family: verdana;
 }
 
-#proj-div {
+#projcts {
 	background-color: #200b0b;
 	padding: 1%;
 	margin: 8rem 0rem;
@@ -114,7 +114,7 @@ img {
 
 }
 
-#quoteDiv {
+#testimonials {
 	margin: 8% 30%;
 }
 
@@ -201,7 +201,7 @@ a:active {
     #about {
         padding: 15%, 12%;
     }
-    #quoteDiv {
+    #testimonials {
         margin: 10% 25%;
     }
 }
@@ -216,7 +216,7 @@ a:active {
   #about {
     padding: 10%;
   }
-  #quoteDiv {
+  #testimonials {
   	margin: 5% 10%;
   }
 }
@@ -257,7 +257,7 @@ a:active {
   	letter-spacing: 4px;
   }
 
-  #proj-div {
+  #testimonials {
     padding-top: 20%
   }
 }
