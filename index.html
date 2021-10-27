@@ -37,6 +37,7 @@
     <body>
   		<nav id="head" class="navbar-default">
   		  <div class="container-fluid">
+
     			<!-- Brand and toggle get grouped for better mobile display -->
     			<div class="navbar-header">
     			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -45,27 +46,36 @@
     				<span class="icon-bar"></span>
     				<span class="icon-bar"></span>
     			  </button>
-    			  <a class="navbar-brand" href="#" style="">Sarah Boka</a>
     			</div>
 
     			<!-- Collect the nav links, forms, and other content for toggling -->
     			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    			  <ul class="nav navbar-nav navbar-right">
-      				<li><a href="mailto:boka.sarah@gmail.com" title="Send me an email" target="_blank"> <span class="fa fa-envelope fa-2x"></span></a></li>
-      				<li><a href="https://www.linkedin.com/in/sarah-boka" title="Find me on LinkedIn" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a></li>
-      				<li><a href="https://github.com/sarahboka" title="Check out my GitHub" target="_blank"><span class="fa fa-github fa-2x"></span></a></li>
-      				<li><a href="https://twitter.com/sarah_boka" title="Find me on Twitter" target="_blank"><span class="fa fa-twitter fa-2x"></span></a></li>
-      				<li><a href="https://trello.com/sarahboka" title="View my Trello" target="_blank"><span class="fa fa-trello fa-2x"></span></a></li>
-      				<li class="dropdown">
-      				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-size: 25px; text-decoration: none; background-color: #200b0b;">Resume <span class="caret"></span></a>
-      				  <ul class="dropdown-menu">
-        					<li><a href="Resume_Public_SarahBoka_2018.pdf" target="_blank">View Resume</a></li>
-                  <li role="separator" class="divider"></li>
-        					<li><a href="Resume_Public_SarahBoka_2018.docx" download>Download Resume</a></li>
-      				  </ul>
-      				</li>
-    			  </ul>
+
+				  <ul class="nav navbar-nav navbar-right">
+					  <li><a class="navbar-style" href="#" title="Home">Home</a></li>
+					  <li><a class="navbar-style" href="#about" title="About Me">About</a></li>
+					  <li><a class="navbar-style" href="#proj-div" title="Check Out My Projects">Projects</a></li>
+					  <li><a class="navbar-style" href="#quoteDiv" title="Testimonials">Testimonials</a></li>
+					  <li class="dropdown">
+						  <a class="navbar-style" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Resume <span class="caret"></span></a>
+						  <ul class="dropdown-menu">
+								<li><a href="Resume_Public_SarahBoka_2018.pdf" target="_blank">View Resume</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="Resume_Public_SarahBoka_2018.docx" download>Download Resume</a></li>
+						  </ul>
+					  </li>
+				  </ul>
+
+					<ul class="nav navbar-nav navbar-left" style="display:inline;">
+						<li><a href="mailto:boka.sarah@gmail.com" title="Send me an email" target="_blank"> <span class="fa fa-envelope fa-2x"></span></a></li>
+						<li><a href="https://www.linkedin.com/in/sarah-boka" title="Find me on LinkedIn" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a></li>
+						<li><a href="https://github.com/sarahboka" title="Check out my GitHub" target="_blank"><span class="fa fa-github fa-2x"></span></a></li>
+						<li><a href="https://twitter.com/sarah_boka" title="Find me on Twitter" target="_blank"><span class="fa fa-twitter fa-2x"></span></a></li>
+						<li><a href="https://trello.com/sarahboka" title="View my Trello" target="_blank"><span class="fa fa-trello fa-2x"></span></a></li>
+					</ul>
+
     			</div><!-- /.navbar-collapse -->
+
   		  </div><!-- /.container-fluid -->
   		</nav>
   		<!--end of navbar........-->
@@ -262,7 +272,7 @@
   				</div>
   			</div>
   		</div>
-  		<div id="quoteDiv">
+  		<div class="quotes" id="quoteDiv">
   			<h3 class="font-head">Testimonials</h3>
   			<q style="letter-spacing: 2px;"><em>Sarah has demonstrated great drive and dedication - spending the necessary time to get a deeper understanding of complex topics.
   			She has excellent attention to detail, and a flair for research and finding previously unknown and creative solutions.
