@@ -29,12 +29,6 @@
     		  ga('send', 'pageview');
     		</script>
 
-			<script type="text/javascript">
-				 $('.navbar-nav>li>a').on('click', function(){
-					$('.navbar-collapse').collapse('hide');
-				});
-			</script>
-
     		<!--[if lt IE 9]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
   		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   		  <script src="jquery-tagcanvas/jquery.tagcanvas.min.js" type="text/javascript"></script>
@@ -58,16 +52,16 @@
     			<div class="collapse navbar-collapse" id="bs-navbar-collapse-toc">
 
 				  <ul class="nav navbar-nav navbar-right">
-					  <li><a class="navbar-style" href="#" title="Home">Home</a></li>
-					  <li><a class="navbar-style" href="#about" title="About Me">About</a></li>
-					  <li><a class="navbar-style" href="#proj-div" title="Check Out My Projects">Projects</a></li>
-					  <li><a class="navbar-style" href="#quoteDiv" title="Testimonials">Testimonials</a></li>
+					  <li data-toggle="collapse" data-target=".in"><a class="navbar-style" href="#" title="Home">Home</a></li>
+					  <li data-toggle="collapse" data-target=".in"><a class="navbar-style" href="#about" title="About Me">About</a></li>
+					  <li data-toggle="collapse" data-target=".in"><a class="navbar-style" href="#proj-div" title="Check Out My Projects">Projects</a></li>
+					  <li data-toggle="collapse" data-target=".in"><a class="navbar-style" href="#quoteDiv" title="Testimonials">Testimonials</a></li>
 					  <li class="dropdown">
 						  <a class="navbar-style" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Resume <span class="caret"></span></a>
 						  <ul class="dropdown-menu">
-								<li><a href="Resume_Public_SarahBoka_2018.pdf" target="_blank">View Resume</a></li>
+								<li data-toggle="collapse" data-target=".in"><a href="SarahBoka-CV-2021.pdf" target="_blank">View Resume</a></li>
 								<li role="separator" class="divider"></li>
-								<li><a href="Resume_Public_SarahBoka_2018.docx" download>Download Resume</a></li>
+								<li data-toggle="collapse" data-target=".in"><a href="SarahBoka-CV-2021.pdf" download>Download Resume</a></li>
 						  </ul>
 					  </li>
 				  </ul>
@@ -118,30 +112,30 @@
   			</div>
   			<!-- tag canvas (don't use css to change size)-->
   			<div id="myCanvasContainer" align="center" style="margin-bottom: 3rem;">
-  			 <canvas width="300" height="300" id="myCanvas">
+  			 <canvas width="430" height="430" id="myCanvas">
   			  <p>Please change browser to view tag canvas of skills.</p>
   			 </canvas>
   			</div>
   			<div id="tags">
   			 <ul>
-  			  <li><a><img src="img/canvas_logos/java-logo-vector.png" alt="java logo" class="logoimg" height="90" width="90"></a></li>
-  			  <li><a><img src="img/canvas_logos/ajax-logo.png" alt="ajax logo" class="logoimg" height="30" width="70"></a></li>
-  			  <li><a><img src="img/canvas_logos/maven-logo.png" alt="maven logo" class="logoimg" height="25" width="100"></a></li>
-  			  <li><a><img src="img/canvas_logos/spring-logo.png" alt="spring logo" class="logoimg" height="35" width="90"></a></li>
+  			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/java-logo-vector.png" alt="java logo" class="logoimg" height="90" width="90"></a></li>
+  			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/ajax-logo.png" alt="ajax logo" class="logoimg" height="30" width="70"></a></li>
+  			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/maven-logo.png" alt="maven logo" class="logoimg" height="25" width="100"></a></li>
+  			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/spring-logo.png" alt="spring logo" class="logoimg" height="35" width="90"></a></li>
   			  <!--<li><a><img src="img/canvas_logos/netbeans-logo.png" alt="netbeans logo" class="logoimg" height="90" width="90"></a></li>-->
   			  <!--<li><a><img src="img/canvas_logos/html-logo.png" alt="html5 logo" class="logoimg" height="90" width="90"></a></li> -->
-  			  <li><a><img src="img/canvas_logos/javascript-logo.png" alt="javascript logo" class="logoimg" height="65" width="80"></a></li>
-  			  <li><a><img src="img/canvas_logos/rest-logo.png" alt="rest logo" class="logoimg"  height="67" width="67"></a></li>
-  			  <li><a><img src="img/canvas_logos/json-logo.png" alt="json logo" class="logoimg" height="130" width="180"></a></li>
-  			  <li><a><img src="img/canvas_logos/python-logo.png" alt="python logo" class="logoimg" height="80" width="160"></a></li>
-  			  <li><a><img src="img/canvas_logos/angularjs-logo.svg" alt="angularjs logo" class="logoimg"  height="35" width="110"></a></li>
-  			  <li><a><img src="img/canvas_logos/logo-mysql-170x115.png" alt="mysql logo" class="logoimg" height="60" width="90"></a></li>
-  			  <li><a><img src="img/canvas_logos/postgresql-logo.png" alt="postgreSQL logo" class="logoimg"  height="105" width="105"></a></li>
-  			  <li><a><img src="img/canvas_logos/bootstrap-logo.png" alt="bootstrap logo" class="logoimg"  height="65" width="100"></a></li>
-  			  <li><a><img src="img/canvas_logos/django-logo.png" alt="django logo" class="logoimg"  height="90" width="90"></a></li>
-  			  <li><a><img src="img/canvas_logos/NetSuite_logo.png" alt="netsuite logo" class="logoimg"  height="100" width="100"></a></li>
-			  <li><a><img src="img/canvas_logos/git-logo.png" alt="git logo" class="logoimg" height="75" width="75"></a></li>	  			
-  			  <li><a><img src="img/canvas_logos/apache2-logo.png" alt="apache logo" class="logoimg" height="70" width="110"></a></li>
+  			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/javascript-logo.png" alt="javascript logo" class="logoimg" height="65" width="80"></a></li>
+  			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/rest-logo.png" alt="rest logo" class="logoimg"  height="67" width="67"></a></li>
+  			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/json-logo.png" alt="json logo" class="logoimg" height="130" width="180"></a></li>
+  			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/python-logo.png" alt="python logo" class="logoimg" height="80" width="160"></a></li>
+  			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/angularjs-logo.svg" alt="angularjs logo" class="logoimg"  height="35" width="110"></a></li>
+  			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/logo-mysql-170x115.png" alt="mysql logo" class="logoimg" height="60" width="90"></a></li>
+  			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/postgresql-logo.png" alt="postgreSQL logo" class="logoimg"  height="105" width="105"></a></li>
+  			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/bootstrap-logo.png" alt="bootstrap logo" class="logoimg"  height="65" width="100"></a></li>
+  			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/django-logo.png" alt="django logo" class="logoimg"  height="90" width="90"></a></li>
+  			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/NetSuite_logo.png" alt="netsuite logo" class="logoimg"  height="100" width="100"></a></li>
+			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/git-logo.png" alt="git logo" class="logoimg" height="75" width="75"></a></li>
+  			  <li><a href="#myCanvasContainer"><img src="img/canvas_logos/apache2-logo.png" alt="apache logo" class="logoimg" height="70" width="110"></a></li>
   			 </ul>
   			</div>
   		</div>
@@ -179,17 +173,17 @@
   					<p>Built using Test-Driven Development, REST, Spring, MVC, JDBC, MySQL, Ajax, JSON, JSTL, Javascript, jQuery, HTML/CSS, Bootstrap and Test Driven Development.</p>
   				</div>
   			</div>
-        <!--collab-->
+        	<!--collab-->
   			<div class="project">
   				<div>
   					<h3 style=" padding: 1%;"><a href="https://github.com/sarahboka/tech-collab" style="color: #ffffff;">TechCollab  <span class="fa fa-github"></span></a></h3>
   					<a class="img-responsive" href="img/collab/colHome.jpg" data-lightbox="collab" data-title="Home page. Register or Login at top."><img src="img/collab/colHome.jpg" alt="collab thumbnail" style="padding: 2%"></a>
   					<a class="img-responsive" href="img/collab/colDash.jpg" data-lightbox="collab" data-title="Dashboard View allows you to build your profile; view, edit, or delete your projects; and accept or decline project requests."></a>
   					<a class="img-responsive" href="img/collab/colAddProj.jpg" data-lightbox="collab" data-title="Add project to get matches. Date and project creator automatically added."></a>
-            <a class="img-responsive" href="img/collab/colProject.jpg" data-lightbox="collab" data-title="Project view. Click 'matches' button to see matches."></a>
+            		<a class="img-responsive" href="img/collab/colProject.jpg" data-lightbox="collab" data-title="Project view. Click 'matches' button to see matches."></a>
   					<a class="img-responsive" href="img/collab/colMatches.jpg" data-lightbox="collab" data-title="Matches display with ability to request a match or remove from list."></a>
   					<a class="img-responsive" href="img/collab/colEditProf.jpg" data-lightbox="collab" data-title="Edit profile."></a>
-            <a class="img-responsive" href="img/collab/colProfile.jpg" data-lightbox="collab" data-title="Profile view."></a>
+            		<a class="img-responsive" href="img/collab/colProfile.jpg" data-lightbox="collab" data-title="Profile view."></a>
   				</div>
   				<div style="padding: 1%;">
   					<p>Django web App that matches tech professionals for project collaboration based on their skills and location. Project owners can send requests to their project matches.</p>
@@ -245,12 +239,12 @@
   				</div>
   			</div>
 			
-        <!--flame-->
+        	<!--flame-->
   			<div class="project">
   				<div>
   					<h3 style="padding: 1%; color: #ffffff;">Digital Flickering Flame</h3>
-            <a class="img-responsive" href="img/flame/ff1.JPG" data-lightbox="ff" data-title=""><img src="img/flame/ff1.JPG" alt="flickering flame project thumbnail" style="padding: 2%"></a>
-            <a class="img-responsive" href="img/flame/ff2.JPG" data-lightbox="ff" data-title=""></a>
+            		<a class="img-responsive" href="img/flame/ff1.JPG" data-lightbox="ff" data-title=""><img src="img/flame/ff1.JPG" alt="flickering flame project thumbnail" style="padding: 2%"></a>
+            		<a class="img-responsive" href="img/flame/ff2.JPG" data-lightbox="ff" data-title=""></a>
   					<a class="img-responsive" href="img/flame/ff3.JPG" data-lightbox="ff" data-title=""></a>
   					<a class="img-responsive" href="img/flame/ff4.JPG" data-lightbox="ff" data-title="Soldering iron."></a>
   				</div>
@@ -260,24 +254,7 @@
   					<p>Built with circuit board, LEDs, resistor, solder, and soldering iron.</p>
   				</div>
   			</div>
-  			<!--floor-->
-  			<div class="project">
-  				<div>
-  					<h3 style="padding: 1%;"><a href="https://github.com/sarahboka/flooring-business-calculator" style="color: #ffffff;">Flooring Machine Console App  <span class="fa fa-github"></span></a></h3>
-  					<a class="img-responsive" href="img/floor/floorMainMenu.png" data-lightbox="floor" data-title="Above the flooring main menu, you are notified that you are in production mode rather than test mode. Test mode disables the 'save' option (5)."><img src="img/floor/floorMainMenu.png" alt="flooring project thumbnail" style="padding: 2%"></a>
-  					<a class="img-responsive" href="img/floor/floorDisplay.png" data-lightbox="floor" data-title="All orders from that date are listed. Entering an invalid date will re-prompt you for input until a valid date is entered."></a>
-  					<a class="img-responsive" href="img/floor/floorAddVal.png" data-lightbox="floor" data-title="Option 2 adds an order to the database. Entering invalid info will re-prompt."></a>
-  					<a class="img-responsive" href="img/floor/floorConfirm.png" data-lightbox="floor" data-title="After adding an order, your order summary is given and you are prompted to confirm your order. There is a state tax file and labor cost file in the database that is used to calculate the total."></a>
-  					<a class="img-responsive" href="img/floor/floorEdit.png" data-lightbox="floor" data-title="The edit funtion displays the original value of each property in parenthesis. If a field is left blank, it's value remains the same."></a>
-  					<a class="img-responsive" href="img/floor/floorRemove.png" data-lightbox="floor" data-title="Remove an order by order number and confirm delete. Changes will not be saved automatically. You must select option 5 (save) before exiting. "></a>
 
-  				</div>
-  				<div style="padding: 1%;">
-  					<p>Java CRUD console app to create and manage flooring orders for a flooring business. The orders are written to files by date.</p>
-  					<hr>
-  					<p>The app was made using Java, Spring MVC, dependency injection, validation, and file I/O.</p>
-  				</div>
-  			</div>
   		</div>
   		<div class="quotes" id="quoteDiv">
   			<h3 class="font-head">Testimonials</h3>
