@@ -37,7 +37,7 @@ header {
 }
 
 .homeimg {
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+    box-shadow: 10px 10px 10px #c4c2be;
     padding: 2px;
     border: 2px solid black;
 }
@@ -56,7 +56,7 @@ header {
 #fullname{
    font-family: 'Orbitron', sans-serif;
    font-size: 70px;
-   text-shadow: 5px 5px rgba(0,0,0,0.3);
+   text-shadow: 5px 5px #c4c2be;
    color: #380e22;
 
 }
@@ -66,8 +66,8 @@ header {
    font-family: 'Orbitron', serif;
    font-size: 30px;
    letter-spacing: 15px;
-   text-shadow: 2px 2px black;
-   color:
+   text-shadow: 2px 2px #c4c2be;
+   color: black;
 }
 
 .separator {
